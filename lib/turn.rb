@@ -1,4 +1,4 @@
-
+  
 
 def display_board(board)
  puts " #{board[0]} | #{board[1]} | #{board[2]} "
@@ -43,7 +43,11 @@ def turn(board)
     move(board,index, player = "X")
     display_board(board)
   else !valid_move?(board, index)
+<<<<<<< HEAD
    turn(board)
+=======
+    turn(board)
+>>>>>>> 950e0e5b0a997655b3f8981b224d4d0ae2088ff8
   end
   display_board(board)
 end
